@@ -1,5 +1,12 @@
+require 'pry'
 require_relative '../config/environment'
 
 
 
-puts "HELLO WORLD"
+def introduction
+  puts "Welcome to game"
+  puts "Please enter username"
+  intro_input = gets.chomp
+  User.create(intro_input)
+  binding.pry
+end
