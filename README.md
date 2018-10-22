@@ -7,6 +7,13 @@ politicians to their state, and or their party
 <ul>
 <h2> Models </h2>
 <li>User</li>
+    <p> attributes: username, user_score
 <li>Question</li>
+    <p>
+    attributes: user, politician_name, politician_party,(state)
+    </p>
 <li>Politician</li>
+    <p>
+    attributes: politician_name, politician_party
+    </p>
 </ul>
