@@ -1,134 +1,134 @@
 require_relative "/Users/matthewdizon/Desktop/flatiron/Ruby/Week3/module-one-final-project-guidelines-dumbo-web-100818/app/models/politician.rb"
 
- a = Politician.new
- a.name = "Andrew Cuomo "
- a.party = "D"
- a.save
-
- a = Politician.new
- a.name = "Phil Murphy"
- a.party = "D"
- a.save
-
- a = Politician.new
- a.name = "Tom Wolf"
- a.party = "D"
- a.save
-
- a = Politician.new
- a.name = "Jerry Brown"
- a.party = "D"
- a.save
-
- a = Politician.new
- a.name = "Greg Abott"
- a.party = "R"
- a.save
-
- a = Politician.new
- a.name = "Rick Scott"
- a.party = "R"
- a.save
-
- a = Politician.new
- a.name = "Matt Bevin"
-
- a.party = "R"
- a.save
-
- a = Politician.new
- a.name = "Phil Scott"
- a.party = "R"
- a.save
-
- a = Politician.new
- a.name = "Ralph Northam"
-
- a.party = "D"
- a.save
-
-a = Politician.new
- a.name = "Kate Brown"
-
- a.party = "D"
- a.save
-
- a = Politician.new
- a.name = "David Ige"
- a.party = "D"
- a.save
-
- a = Politician.new
- a.name = "Jay Inslee"
- a.party = "D"
- a.save
-
- a = Politician.new
- a.name = "Larry Hogan"
- a.party = "R"
- a.save
-
- a = Politician.new
- a.name = "Doug Ducey"
- a.party = "R"
- a.save
-
- a = Politician.new
- a.name = "Brian Sandoval"
- a.party = "R"
- a.save
-
- a = Politician.new
-a.name = "Susana Martinez"
- a.party = "R"
- a.save
- a = Politician.new
- a.name = "Butch Otter"
- a.party = "R"
- a.save
-
- a = Politician.new
- a.name = "Roy Cooper"
- a.party = "D"
- a.save
-
- a = Politician.new
- a.name = "Bruce Rauner"
- a.party = "R"
- a.save
-
- a = Politician.new
- a.name = "Steve Bullock"
- a.party = "D"
- a.save
-
- a = Politician.new
- a.name = "Mark Dayton"
- a.party = "D"
- a.save
-
- a = Politician.new
- a.name = "Chris Sununu"
- a.party = "R"
- a.save
-
-
- a = Politician.new
- a.name = "Matt Mead"
- a.party = "R"
- a.save
-
- a = Politician.new
- a.name = "Scott Walker"
- a.party = "R"
- a.save
-
- a = Politician.new
- a.name = "Gina Raimondo"
- a.party = "D"
- a.save
-
-
+#  a = Politician.new
+#  a.name = "Andrew Cuomo "
+#  a.party = "D"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "Phil Murphy"
+#  a.party = "D"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "Tom Wolf"
+#  a.party = "D"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "Jerry Brown"
+#  a.party = "D"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "Greg Abott"
+#  a.party = "R"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "Rick Scott"
+#  a.party = "R"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "Matt Bevin"
+#
+#  a.party = "R"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "Phil Scott"
+#  a.party = "R"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "Ralph Northam"
+#
+#  a.party = "D"
+#  a.save
+#
+# a = Politician.new
+#  a.name = "Kate Brown"
+#
+#  a.party = "D"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "David Ige"
+#  a.party = "D"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "Jay Inslee"
+#  a.party = "D"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "Larry Hogan"
+#  a.party = "R"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "Doug Ducey"
+#  a.party = "R"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "Brian Sandoval"
+#  a.party = "R"
+#  a.save
+#
+#  a = Politician.new
+# a.name = "Susana Martinez"
+#  a.party = "R"
+#  a.save
+#  a = Politician.new
+#  a.name = "Butch Otter"
+#  a.party = "R"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "Roy Cooper"
+#  a.party = "D"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "Bruce Rauner"
+#  a.party = "R"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "Steve Bullock"
+#  a.party = "D"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "Mark Dayton"
+#  a.party = "D"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "Chris Sununu"
+#  a.party = "R"
+#  a.save
+#
+#
+#  a = Politician.new
+#  a.name = "Matt Mead"
+#  a.party = "R"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "Scott Walker"
+#  a.party = "R"
+#  a.save
+#
+#  a = Politician.new
+#  a.name = "Gina Raimondo"
+#  a.party = "D"
+#  a.save
+#
+#
 
 
 
@@ -281,3 +281,8 @@ a.name = "Susana Martinez"
 # a.politician = "Gina Raimondo"
 # k.answer = "D"
 # k.save
+
+
+a = Music.new
+a.artist = "Rick Astley"
+a.song = "/Users/matthewdizon/Desktop/flatiron/Ruby/Week3/module-one-final-project-guidelines-dumbo-web-100818/music/Rick_Astley_Never_Gonna_Give_You_Up.mp3"
