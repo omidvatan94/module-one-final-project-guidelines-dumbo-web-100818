@@ -3,7 +3,8 @@ class CreateQuestions < ActiveRecord::Migration[5.0]
       create_table :questions do |t|
           t.string :question
           t.string :answer
-          t.string :politican_name
+          t.string :category
+          t.string :music_url
       end
   end
 end
